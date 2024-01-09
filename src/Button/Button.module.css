@@ -1,0 +1,16 @@
+.button
+{
+  font-weight: 500;
+  background-color: transparent;
+  color: var(--bd-white);
+  border: .1rem outset transparent;
+  border-bottom: .1rem outset var(--bd-green);
+  transition-property: all;
+  transition-duration: .5s;
+}
+
+.button:hover
+{
+  border: .1rem outset var(--bd-green);
+  transform: scale(1.1);
+}

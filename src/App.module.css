@@ -1,0 +1,30 @@
+.section-header-h1-span
+{
+  border-bottom: .2rem outset var(--bd-green);
+  width: fit-content;
+}
+
+.section-p
+{
+  max-width: 25rem;
+}
+
+.section-header-img
+{
+  background-color: var(--bg-dark-one);
+}
+
+.section-h2
+{
+  font-size: 3rem;
+}
+
+.section-contact
+{
+  border-bottom: 1px inset var(--bg-dark-one);
+}
+
+.textarea
+{
+  resize: none;
+}
