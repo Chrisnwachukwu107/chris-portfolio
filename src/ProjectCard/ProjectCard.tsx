@@ -76,6 +76,7 @@ export default function ProjectCard({
                       <a 
                         href={ card.link }
                         className="text-dark"
+                        target="_blank"
                       >
                         VIEW PROJECT
                       </a>
