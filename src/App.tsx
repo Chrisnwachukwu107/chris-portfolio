@@ -4,6 +4,7 @@ import Section from "./Section/Section";
 import Button from "./Button/Button";
 import Skill from "./Skill/Skill";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import Contact from "./Contact/Contact";
 import styles from "./App.module.css";
 
 const skills = [
@@ -175,7 +176,7 @@ export default function App(): ReactNode
             </span>
           </h1>
           <p
-            className={`mb-4 mb-md-5 ${styles["section-p"]} text-center mx-auto`}
+            className={`mb-4 mb-md-5 ${styles["section-p"]} text-center text-md-start mx-auto mx-md-0`}
           >
             Based in Nigeria, I'm a Front End Developer Passionate about
             building accessible web apps that users love.
@@ -274,49 +275,7 @@ export default function App(): ReactNode
           <div
             className="mx-auto text-center"
           >
-            <form
-              className="mx-auto text-center"
-            >
-              <div
-                className="mx-auto text-center mb-3"
-              >
-                <input
-                  type="text"
-                  className={`form-control text-center mx-auto ${styles.input}`}
-                  placeholder="NAME"
-                />
-              </div>
-              <div
-                className="mx-auto text-center mb-3"
-              >
-                <input
-                  type="email"
-                  className={`form-control text-center mx-auto ${styles.input}`}
-                  placeholder="EMAIL"
-                />
-              </div>
-              <div
-                className="mx-auto text-center mb-3">
-                <textarea
-                
-                  className={`form-control text-center mx-auto ${styles.textarea}`}
-                  rows={4}
-                  cols={60}
-                  placeholder="MESSAGE"
-                >
-                </textarea>
-              </div>
-              <Button
-                className="btn"
-              >
-                {/* email: mailto:programmerchris6002@gmail.com */}
-                <a
-                  href="#"
-                >
-                  SEND MESSAGE
-                </a>
-              </Button>
-            </form>
+           <Contact></Contact> 
           </div>
         </div>
       </Section>
