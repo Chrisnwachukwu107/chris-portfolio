@@ -232,6 +232,19 @@ export default function App() {
           list={projects}
         >
         </ProjectCard>
+        <div
+          className="container text-center"
+        >
+          <Button
+            className="d-inline-block d-sm-none btn"
+          >
+            <a
+              href="https://wa.me/2348104948700?text=Hi%20Christian,%20I%20saw%20one%20of%20your%20websites%20and%20I%20want%20you%20to%create%20one%20for%20me."
+            >
+              CONTACT ME
+            </a>
+          </Button>
+        </div>
       </Section>
 
       <Section
