@@ -12,6 +12,7 @@
 .section-header-img
 {
   background-color: var(--bg-dark-one);
+  width: 20rem;
 }
 
 .section-h2
@@ -27,4 +28,13 @@
 .textarea
 {
   resize: none;
+}
+
+@media (max-width: 576px)
+{
+  .section-header-img
+  {
+    background-color: var(--bg-dark-one);
+    width: 15rem;
+  }
 }

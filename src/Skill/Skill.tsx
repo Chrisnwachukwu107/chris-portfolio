@@ -19,19 +19,19 @@ export default function Skill({
 }: Props): ReactNode
 {
   return (
-    <div className={ `${className} ${styles.skill}` }
+    <div className={ `${className}` }
     >
       { list.map((skill, index) =>
       {
         return (
           <div
-            className={ containerClassName }
+            className={ `${containerClassName} ${styles["skill-container"]}` }
             key={ index }
           >
             <img
+              className={ `${styles["skill-img"]}` }
               src={ skill.img }
               alt={ skill.label }
-              width={ 120 }
             />
             <h3 
               className="h3"

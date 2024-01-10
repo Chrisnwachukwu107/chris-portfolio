@@ -1,0 +1,17 @@
+.skill-container
+{
+  width: auto;
+}
+
+.skill-img
+{
+  width: 7.5rem;
+}
+
+@media (max-width: 768px)
+{
+  .skill-img
+  {
+    width: 6rem;
+  }
+}
