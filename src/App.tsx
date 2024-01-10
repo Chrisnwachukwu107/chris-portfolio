@@ -167,7 +167,7 @@ export default function App() {
           <h1 className="h1 mb-5">
             Nice to meet you!
             <br />
-            I'm{" "}
+            I'm
             <span className={`${styles["section-header-h1-span"]}`}>
               Christian Nwachukwu.
             </span>
@@ -180,7 +180,7 @@ export default function App() {
           </p>
           <Button className="btn">
             <a
-              href="https://wa.me/2348104948700?text=Hi%20Christian,%20I%20saw%20one%20of%20your%20websites%20and%20I%20would%20love%20you%20to%create%20one%for%20me."
+              href="https://wa.me/2348104948700?text=Hi%20Christian,%20I%20saw%20one%20of%20your%20websites%20and%20I%20want%20you%20to%create%20one%20for%20me."
             >
               CONTACT ME
             </a>
