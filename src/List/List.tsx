@@ -28,7 +28,7 @@ export default function List({
             className={ `` }
           >
             <a
-              className='mx-2'
+              className='mx-1 mx-md-2'
               href={ li.href }
               title={ li.title }
             >
