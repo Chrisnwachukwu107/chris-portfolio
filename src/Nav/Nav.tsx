@@ -41,10 +41,19 @@ const list = [
 
 export default function Nav({ className }: Props): ReactNode {
   return (
-    <nav className={`${className} ${styles.nav}`}>
-      <div className={`container px-0 px-sm-1 px-md-3 px-lg-5`}>
-        <h4 className="h4">
-          <a href="#" title="Christian Nwachukwu">
+    <nav
+      className={`${className} ${styles.nav}`}
+    >
+      <div
+        className={`container mx-0 mx-sm-1 mx-md-3 mx-lg-5 px-0 px-sm-1 px-md-3 px-lg-5`}
+      >
+        <h4
+          className="h4"
+        >
+          <a
+            href="#"
+            title="Christian Nwachukwu"
+          >
             Chris
           </a>
         </h4>

@@ -156,9 +156,13 @@ const projects = [
 export default function App() {
   return (
     <>
-      <Nav className="d-flex py-4 px-1 px-md-3 px-lg-5 text-white" />
+      <Nav
+        className="d-flex py-4 px-1 px-md-3 px-lg-5 text-white"
+      />
 
-      <Section className="d-flex align-items-center justify-content-center justify-content-md-start flex-wrap flex-md-nowrap px-1 px-md-3 px-lg-5 py-5 text-white text-center text-md-start">
+      <Section
+        className="d-flex align-items-center justify-content-center justify-content-md-start flex-wrap flex-md-nowrap px-1 px-md-3 px-lg-5 py-5 text-white text-center text-md-start"
+      >
         <div className={`container px-1 px-md-3 px-lg-5 mb-5 mb-md-0`}>
           <h1 className="h1 mb-5">
             Nice to meet you!
@@ -189,7 +193,9 @@ export default function App() {
         </div>
       </Section>
 
-      <Section className="container-fluid mx-auto text-center py-5 px-1 px-md-3 px-lg-5 text-white">
+      <Section
+        className="container-fluid mx-auto text-center py-5 px-1 px-md-3 px-lg-5 text-white"
+      >
         <Skill
           className="mx-auto text-center row"
           containerClassName="col-auto mx-auto text-center"
@@ -197,21 +203,38 @@ export default function App() {
         />
       </Section>
 
-      <Section className="container-fluid mx-auto p-5 text-white">
-        <div className="container-fluid d-flex justify-content-between align-items-start px-5 mb-5">
-          <h2 className={`h2 ${styles["section-h2"]}`}>Projects</h2>
-          <Button className="btn">
+      <Section
+        className="container-fluid mx-auto py-5 px-1 px-sm-2 px-md-3 px-lg-5 text-white"
+      >
+        <div
+          className="container-fluid d-sm-flex justify-content-between align-items-start py-5 px-1 px-sm-2 px-md-3 px-lg-5  mb-5"
+        >
+          <h2
+            className={`h2 text-center ${styles["section-h2"]}`}
+          >
+            Projects
+          </h2>
+          <Button
+            className="d-none d-sm-inline-block btn"
+          >
             {/* email: mailto:programmerchris6002@gmail.com */}
-            <a href="#">CONTACT ME</a>
+            <a
+              href="#"
+            >
+              CONTACT ME
+            </a>
           </Button>
         </div>
         <ProjectCard
-          className="row row-cols-1 row-cols-lg-2 row-cols-xl-3 mx-4"
+          className="row row-cols-1 row-cols-md-2 row-cols-xl-3 mx-4 align-items-center px-0 px-sm-5 px-md-0"
           list={projects}
-        ></ProjectCard>
+        >
+        </ProjectCard>
       </Section>
 
-      <Section className={`container-fluid mx-auto p-5 text-white`}>
+      <Section
+        className={`container-fluid mx-auto p-5 text-white`}
+      >
         <div className="container-fluid d-flex justify-content-between align-items-start px-5 mb-5">
           <div>
             <h2 className={`h2 mb-4 ${styles["section-h2"]}`}>Contact</h2>
@@ -259,7 +282,9 @@ export default function App() {
         </div>
       </Section>
 
-      <Nav className="d-flex py-5 px-5 text-white" />
+      <Nav
+        className="d-flex py-5 px-5 text-white"
+      />
     </>
   );
 }

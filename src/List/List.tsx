@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import styles from './List.module.css';
 
 interface Props
 {
@@ -18,7 +17,7 @@ export default function List({
 {
   return (
     <ul
-      className={ `list-unstyled ${className} ${styles.ul}` }
+      className={ `list-unstyled ${className}` }
     >
       { list.slice(0, 4).map((li, index): ReactNode =>
       {

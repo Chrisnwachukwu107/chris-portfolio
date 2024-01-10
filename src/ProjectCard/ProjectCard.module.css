@@ -1,3 +1,8 @@
+.card-project-img
+{
+  width: 2.5rem;
+}
+
 @media (min-width: 992px)
 {
   .card-img
@@ -10,7 +15,15 @@
 {
   .card-img
   {
-    height: 17.5rem;
+    height: 10rem;
+  }
+}
+
+@media (min-width: 1300px)
+{
+  .card-img
+  {
+    height: 12.5rem;
   }
 }
 
@@ -18,7 +31,7 @@
 {
   .card-img
   {
-    height: 20rem;
+    height: 12rem;
   }
 }
 
@@ -26,14 +39,26 @@
 {
   .card-img
   {
-    height: 15rem;
+    height: 14rem;
+  }
+  .card-project-img
+  {
+    width: 2rem;
   }
 }
 
-@media (max-width: 576px)
+@media (max-width: 476px)
 {
   .card-img
   {
-    height: 12.5rem;
+    height: 10rem;
+  }
+}
+
+@media (max-width: 376px)
+{
+  .card-img
+  {
+    height: 8rem;
   }
 }
