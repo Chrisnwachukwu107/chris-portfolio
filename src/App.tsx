@@ -179,7 +179,9 @@ export default function App() {
             building accessible web apps that users love.
           </p>
           <Button className="btn">
-            <a href="https://wa.me/2348104948700?text=Hello%20there,%20I%20am%20interested%20in.">
+            <a
+              href="https://wa.me/2348104948700?text=Hi%20Christian,%20I%20saw%20one%20of%20your%20websites%20and%20I%20would%20love%20you%20to%create%20one%for%20me."
+            >
               CONTACT ME
             </a>
           </Button>
