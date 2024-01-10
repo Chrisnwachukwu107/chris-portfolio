@@ -38,7 +38,7 @@ const skills = [
   },
   {
     label: "Chat-GPT",
-    subLabel: ["2"],
+    subLabel: ["1"],
     img: "/images/openai-logo.png",
   },
 ];
@@ -189,10 +189,10 @@ export default function App() {
         </div>
       </Section>
 
-      <Section className="container-fluid py-5 px-1 px-md-3 px-lg-5 text-white">
+      <Section className="container-fluid mx-auto text-center py-5 px-1 px-md-3 px-lg-5 text-white">
         <Skill
-          className="row"
-          containerClassName="mx-auto text-center col-7 col-sm-5 col-lg-1"
+          className="mx-auto text-center row"
+          containerClassName="col-auto mx-auto text-center"
           list={ skills }
         />
       </Section>
