@@ -2,6 +2,9 @@
 {
   font-family: 'Peralta';
   background-color: var(--bg-dark-two);
-  border-bottom: 1px inset var(--bg-dark-one);
 }
 
+.nav-bd
+{
+  border-bottom: 1px inset var(--bg-dark-one);
+}

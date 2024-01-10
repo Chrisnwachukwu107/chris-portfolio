@@ -1,3 +1,8 @@
+/* .nav
+{
+  border-bottom: 1px inset var(--bd-dark-one);
+} */
+
 .section-header-h1-span
 {
   border-bottom: .2rem outset var(--bd-green);
@@ -41,7 +46,8 @@
 
 @media (min-width: 768px) and (max-width: 992px)
 {
-  .input, .textarea
+  .input,
+  .textarea
   {
     width: 40rem;
   }

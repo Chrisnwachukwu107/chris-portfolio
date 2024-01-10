@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import Nav from "./Nav/Nav";
 import Section from "./Section/Section";
 import Button from "./Button/Button";
@@ -38,7 +39,7 @@ const skills = [
   },
   {
     label: "Chat-GPT",
-    subLabel: ["1"],
+    subLabel: ["2"],
     img: "/images/openai-logo.png",
   },
 ];
@@ -153,22 +154,23 @@ const projects = [
   },
 ];
 
-export default function App() {
+export default function App(): ReactNode
+{
   return (
     <>
       <Nav
-        className="d-flex py-4 px-1 px-md-3 px-lg-5 text-white"
+        className={ `d-flex py-4 px-1 px-md-3 px-lg-5 text-white` }
+        navName="header"
       />
 
       <Section
-        className="d-flex align-items-center justify-content-center justify-content-md-start flex-wrap flex-md-nowrap px-1 px-md-3 px-lg-5 py-5 text-white text-center text-md-start"
+        className={ `d-flex align-items-center justify-content-center justify-content-md-start flex-wrap flex-md-nowrap px-1 px-md-3 px-lg-5 py-5 text-white text-center text-md-start ${styles["section-header"]}` }
       >
         <div className={`container px-1 px-md-3 px-lg-5 mb-5 mb-md-0`}>
           <h1 className="h1 mb-5">
             Nice to meet you!
             <br />
-            I'm
-            <span className={`${styles["section-header-h1-span"]}`}>
+            I'm <span className={`${styles["section-header-h1-span"]}`}>
               Christian Nwachukwu.
             </span>
           </h1>
@@ -229,7 +231,7 @@ export default function App() {
         </div>
         <ProjectCard
           className="row row-cols-1 row-cols-md-2 row-cols-xl-3 mx-4 align-items-center px-0 px-sm-5 px-md-0"
-          list={projects}
+          list={ projects }
         >
         </ProjectCard>
         <div
@@ -321,6 +323,7 @@ export default function App() {
 
       <Nav
         className="d-flex py-4 px-1 px-md-3 px-lg-5 text-white"
+        navName="footer"
       />
     </>
   );

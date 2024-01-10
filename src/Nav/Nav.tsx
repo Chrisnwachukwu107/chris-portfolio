@@ -4,6 +4,7 @@ import List from "../List/List";
 
 interface Props {
   className: string;
+  navName: string
 }
 
 const list = [
@@ -39,10 +40,13 @@ const list = [
   },
 ];
 
-export default function Nav({ className }: Props): ReactNode {
+export default function Nav({
+  className,
+  navName,
+}: Props): ReactNode {
   return (
     <nav
-      className={`${className} ${styles.nav}`}
+      className={ `${className} ${styles.nav} ${navName === "header" ? styles["nav-bd"] : ""}` }
     >
       <div
         className={`container mx-0 mx-sm-1 mx-md-3 mx-lg-5 px-0 px-sm-1 px-md-3 px-lg-5`}

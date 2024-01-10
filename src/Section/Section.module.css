@@ -3,4 +3,5 @@
   font-family: 'Poppins';
   background-color: var(--bg-dark-two);
   border-bottom: 1px inset var(--bg-dark-one);
+  /* border-top: 1px inset var(--bg-dark-one); */
 }
