@@ -233,47 +233,67 @@ export default function App() {
       </Section>
 
       <Section
-        className={`container-fluid mx-auto p-5 text-white`}
+        className={`container-fluid mx-auto px-1 px-md-2 px-xxl-5 py-5 text-center text-white`}
       >
-        <div className="container-fluid d-flex justify-content-between align-items-start px-5 mb-5">
-          <div>
-            <h2 className={`h2 mb-4 ${styles["section-h2"]}`}>Contact</h2>
-            <p className={`${styles["section-p"]}`}>
+        <div
+          className="container-fluid d-lg-flex justify-content-between align-items-start px-1 px-md-2 px-xxl-5 py-5 mb-5 text-center"
+        >
+          <div
+            className="mx-auto text-center"
+          >
+            <h2
+              className={`h2 mb-4 ${styles["section-h2"]}`}
+            >Contact</h2>
+            <p
+              className={`${styles["section-p"]} mx-auto text-center mb-5 mb-lg-0`}
+            >
               I would love to hear about your project and how I could help.
               Please fill in the form and I'l get back to you as soon as
               possible.
             </p>
           </div>
-          <div>
-            <form>
-              <div className="mb-3">
+          <div
+            className="mx-auto text-center"
+          >
+            <form
+              className="mx-auto text-center"
+            >
+              <div
+                className="mx-auto text-center mb-3"
+              >
                 <input
                   type="text"
-                  className={`form-control ${styles.input}`}
-                  id="exampleFormControlInput1"
+                  className={`form-control text-center mx-auto ${styles.input}`}
                   placeholder="NAME"
                 />
               </div>
-              <div className="mb-3">
+              <div
+                className="mx-auto text-center mb-3"
+              >
                 <input
                   type="email"
-                  className={`form-control ${styles.input}`}
-                  id="exampleFormControlInput1"
+                  className={`form-control text-center mx-auto ${styles.input}`}
                   placeholder="EMAIL"
                 />
               </div>
-              <div className="mb-3">
+              <div
+                className="mx-auto text-center mb-3">
                 <textarea
-                  className={`form-control ${styles.textarea}`}
-                  id="exampleFormControlTextarea1"
+                
+                  className={`form-control text-center mx-auto ${styles.textarea}`}
                   rows={4}
                   cols={60}
                   placeholder="MESSAGE"
-                ></textarea>
+                >
+                </textarea>
               </div>
-              <Button className="btn">
+              <Button
+                className="btn"
+              >
                 {/* email: mailto:programmerchris6002@gmail.com */}
-                <a href="https://wa.me/234?text=Hello%20there,%20I%20am%20interested%20in.">
+                <a
+                  href="https://wa.me/234?text=Hello%20there,%20I%20am%20interested%20in."
+                >
                   SEND MESSAGE
                 </a>
               </Button>
@@ -283,7 +303,7 @@ export default function App() {
       </Section>
 
       <Nav
-        className="d-flex py-5 px-5 text-white"
+        className="d-flex py-4 px-1 px-md-3 px-lg-5 text-white"
       />
     </>
   );
