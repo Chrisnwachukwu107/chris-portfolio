@@ -179,7 +179,7 @@ export default function App() {
             building accessible web apps that users love.
           </p>
           <Button className="btn">
-            <a href="https://wa.me/234?text=Hello%20there,%20I%20am%20interested%20in.">
+            <a href="https://wa.me/2348104948700?text=Hello%20there,%20I%20am%20interested%20in.">
               CONTACT ME
             </a>
           </Button>
@@ -219,7 +219,7 @@ export default function App() {
           >
             {/* email: mailto:programmerchris6002@gmail.com */}
             <a
-              href="#"
+              href="https://wa.me/2348104948700?text=Hello%20there,%20I%20am%20interested%20in."
             >
               CONTACT ME
             </a>
@@ -243,7 +243,9 @@ export default function App() {
           >
             <h2
               className={`h2 mb-4 ${styles["section-h2"]}`}
-            >Contact</h2>
+            >
+              Contact
+            </h2>
             <p
               className={`${styles["section-p"]} mx-auto text-center mb-5 mb-lg-0`}
             >
@@ -292,7 +294,7 @@ export default function App() {
               >
                 {/* email: mailto:programmerchris6002@gmail.com */}
                 <a
-                  href="https://wa.me/234?text=Hello%20there,%20I%20am%20interested%20in."
+                  href="#"
                 >
                   SEND MESSAGE
                 </a>
