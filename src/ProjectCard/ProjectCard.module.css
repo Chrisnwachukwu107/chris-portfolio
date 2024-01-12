@@ -1,3 +1,14 @@
+.card
+{
+  transition: all 1s;
+}
+
+.card:hover
+{
+  box-shadow: 0 0 1.25rem white;
+  transform: scale(1.05);
+}
+
 .card-project-img
 {
   width: 2.5rem;

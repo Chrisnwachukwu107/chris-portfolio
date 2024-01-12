@@ -16,15 +16,16 @@ interface Props {
 export default function ProjectCard({ className, list }: Props): ReactNode {
   return (
     <div
-      className={`${className} ${styles["card-section"]}`}
+      className={ `${className}` }
     >
       {list.map((card, index) => {
         return (
           <div
-            className="col mb-4" key={index}
+            className={`col mb-4`}
+            key={index}
           >
             <div
-              className="card align-items-center text-center"
+              className={`card align-items-center text-center ${styles["card"]}`}
             >
               <img
               

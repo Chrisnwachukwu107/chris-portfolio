@@ -7,6 +7,30 @@
   --bg-dark-two: #151515;
   --bd-green: #4FE1A2;
   --bd-white: #FFFFFF;
+  --animation-up-down: moveUpDown 5s infinite;
+}
+
+@keyframes moveUpDown {
+  0%
+  {
+    transform: translateY(24px);
+  }
+  25%
+  {
+    transform: translateY(12px);
+  }
+  50%
+  {
+    transform: translateY(0px) scale(1.05);
+  }
+  75%
+  {
+    transform: translateY(12px);
+  }
+  100%
+  {
+    transform: translateY(24px);
+  }
 }
 
 *

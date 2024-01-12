@@ -18,6 +18,11 @@
 {
   background-color: var(--bg-dark-one);
   width: 20rem;
+  border-radius: 50%;
+  /* animation-name: moveUpDown;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; */
+  animation: var(--animation-up-down);
 }
 
 .section-h2

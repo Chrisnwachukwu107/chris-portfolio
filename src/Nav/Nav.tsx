@@ -49,7 +49,7 @@ export default function Nav({
       className={ `${className} ${styles.nav} ${navName === "header" ? styles["nav-bd"] : ""}` }
     >
       <div
-        className={`container mx-0 mx-sm-1 mx-md-3 mx-lg-5 px-0 px-sm-1 px-md-3 px-lg-5`}
+        className={`container px-0 px-sm-1 px-md-3 px-lg-5`}
       >
         <h4
           className="h4"
