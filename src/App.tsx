@@ -157,6 +157,7 @@ const projects = [
 
 export default function App(): ReactNode
 {
+  console.log("I am rendered!");
   return (
     <>
       <Nav
