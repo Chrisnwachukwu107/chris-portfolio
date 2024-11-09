@@ -129,6 +129,18 @@ const projects = [
     link: "https://js-leaderboard-app.vercel.app/",
   },
   {
+    label: "POSITION SIZE CALCULATOR APPLICATION",
+    subLabel: ["TS", "React.js", "BOOTSTRAP5", "Git"],
+    subLabelImg: [
+      "/images/ts-logo.png",
+      "/images/reactjs-logo.png",
+      "/images/bootstrap5-logo.png",
+      "/images/github-logo.png",
+    ],
+    img: "/images/pricing-card-app-img.png",
+    link: "https://first-react-app-lemon-pi.vercel.app/",
+  },
+  {
     label: "SOLAR SYSTEM APPLICATION",
     subLabel: ["HTML5", "CSS3", "JavaScript", "BOOTSTRAP5", "Git", "Chat-GPT"],
     subLabelImg: [
