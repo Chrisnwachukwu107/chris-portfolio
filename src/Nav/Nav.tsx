@@ -25,17 +25,17 @@ const list = [
   },
   {
     src: "/images/x-logo-light.png",
-    href: "https://www.twitter.com/ProgChris6002/",
-    title: "My x/twitter profile",
+    href: "https://www.twitter.com/Programmerchriz/",
+    title: "My X profile",
   },
   {
     src: "/images/facebook-logo.png",
-    href: "https://www.facebook.com/ProgrammerChris6002/",
+    href: "https://www.facebook.com/Programmerchriz/",
     title: "My facebook profile",
   },
   {
     src: "/images/tiktok-logo.png",
-    href: "https://www.tiktok.com/@programmerchris6002",
+    href: "https://www.tiktok.com/@Programmerchriz",
     title: "My tiktok profile",
   },
 ];

@@ -10,12 +10,12 @@ import styles from "./App.module.css";
 const skills = [
   {
     label: "HTML5",
-    subLabel: ["2"],
+    subLabel: ["3"],
     img: "/images/html5-logo.png",
   },
   {
     label: "CSS3",
-    subLabel: ["2"],
+    subLabel: ["3"],
     img: "/images/css3-logo.png",
   },
   {
@@ -25,13 +25,22 @@ const skills = [
   },
   {
     label: "BOOTSTRAP5",
-    subLabel: ["1"],
+    subLabel: ["2"],
     img: "/images/bootstrap5-logo.png",
+  },{
+    label: "Tailwind CSS",
+    subLabel: ["1"],
+    img: "/images/tailwindcss-logo.png",
   },
   {
     label: "React.js",
-    subLabel: ["1"],
+    subLabel: ["2"],
     img: "/images/reactjs-logo.png",
+  },
+  {
+    label: "Next.js",
+    subLabel: ["2"],
+    img: "/images/nextjs-logo.png",
   },
   {
     label: "Git/Github",
@@ -196,7 +205,7 @@ export default function App(): ReactNode
           </p>
           <Button className="btn">
             <a
-              href="https://wa.me/2348104948700?text=Hi%20Christian,%20I%20saw%20one%20of%20your%20websites%20and%20I%20want%20you%20to%create%20one%20for%20me."
+              href="https://t.me/Programmerchriz"
             >
               CONTACT ME
             </a>
@@ -205,7 +214,7 @@ export default function App(): ReactNode
         <div className="container-fluid p-0 px-1 px-md-3 px-lg-5 text-center">
           <img
             className={`me-0 text-end ${styles["section-header-img"]}`}
-            src="/images/portfolio-img.png"
+            src="/images/portfolio-img-2.jpg"
             alt="Me"
           />
         </div>
