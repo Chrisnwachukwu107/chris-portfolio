@@ -6,6 +6,7 @@ import styles from './App.module.css';
 export default function App() {
   const [isVisible, setIsVisible] = useState(false);
   const [countdown, setCountdown] = useState(5);
+  console.log(isVisible);
 
   useEffect(() => {
     setIsVisible(true);
