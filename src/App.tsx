@@ -110,7 +110,7 @@ export default function App() {
             <div className={styles.statLabel}>Projects</div>
           </div>
           <div className={styles.statCard}>
-            <div className={styles.statValue}>8+</div>
+            <div className={styles.statValue}>10+</div>
             <div className={styles.statLabel}>Technologies</div>
           </div>
           <div className={styles.statCard}>
